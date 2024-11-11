@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: thebeardedcactus# author name
+  name: thebeardedcactus # author name
   bio: >- # tell to the world
    a bit of a prick. 🌵
   username: username # general username
