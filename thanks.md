@@ -7,5 +7,3 @@ comments: false
 ---
 
 Thanks to the people giving some advice when i'm at a bad things.
-
-<hr>
