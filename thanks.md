@@ -1,5 +1,5 @@
 ---
-title: acknowledgment
+title: thanks
 permalink: /thanks/
 layout: page
 excerpt: Thanks to the poeple giving some advice when i'm at a bad things.
