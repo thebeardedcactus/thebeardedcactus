@@ -47,7 +47,7 @@ layout: compress
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.date %}
-          <div class="post-meta">
+          <div class="post-meta" style="text-transform: lowercase">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%b %d, %Y" }}
             </time>
@@ -64,7 +64,7 @@ layout: compress
           {% endif %}
         </header>
 
-        <div class="page-content" itemprop="articleBody">
+        <div class="page-content" itemprop="articleBody" style="text-transform: lowercase">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
           {% if page.tweet %}
           <p>Comments this article on 
